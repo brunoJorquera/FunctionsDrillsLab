@@ -70,6 +70,19 @@ console.log(sum)
 */
 
 //CODE HERE
+function nameCheck(name){
+  if(name === "Steven"){
+    return("What is up Steven?")
+  } else if(name === "Bryan"){
+    return( "Hey Bryan!")
+  } else{
+  return(`Cool name, ${name}!`)
+}
+}
+
+let nameGreeting = nameCheck("Throckmorton")
+
+console.log(nameGreeting)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -83,6 +96,22 @@ console.log(sum)
 
 //CODE HERE
 
+function faveColorFinder(color){
+if(color === "red"){
+return("red is a great color")
+} else if(color === "green"){
+  return("green is a solid favorite color")
+} else if(color === "black"){
+  return("so trendy")
+} else{
+  return("you need to evaluate your color choice")
+}
+}
+
+let colorRating = faveColorFinder("green")
+
+console.log(colorRating)
+
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 /*
@@ -93,6 +122,14 @@ let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 
 //CODE HERE
 
+function printAllNames(namesArr){
+  for(let i = 0; i < namesArr.length; i++){
+    console.log(namesArr[i])
+  }
+}
+
+printAllNames(namesArr)
+
 ////////////////// PROBLEM 8 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -102,6 +139,8 @@ let namesArr = ["Cameron", "Riley", "Eric", "Brenna", "Karl"];
 */
 
 //CODE HERE
+
+
 
 ////////////////// PROBLEM 9 ////////////////////
 let bigOrSmallArray = [1, 101, 102, 2, 103, 4, 5, 6, 107];
